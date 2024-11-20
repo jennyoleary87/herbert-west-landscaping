@@ -1,0 +1,39 @@
+:root {
+  --accent-color: hsl(150, 70%, 31%);
+}
+
+/* general */
+
+.hwl-hanging .card-text {
+  text-indent: -.4rem;
+}
+
+/* Navbar */
+
+.hwl-bg-navbar {
+  background-image: linear-gradient(90deg, #111, var(--accent-color));
+}
+
+.navbar-brand > img {
+  width: 115px;
+  height: auto;
+}
+
+/* breadcrumb */
+
+.breadcrumb {
+  margin-top: 1rem;
+}
+
+/* hero */
+
+.hwl-hero {
+  background-image: url("/images/home/garden.webp");
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+}
+
+.hwl-shadow {
+  text-shadow: .5rem .5rem .5rem black;
+}
